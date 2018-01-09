@@ -1,0 +1,66 @@
+html{
+    height: 100%;
+    background-image: linear-gradient(to bottom, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+    background-repeat: no-repeat;
+}
+#myImgCanvas{
+    margin: 5px;
+    border: 2px gray;
+    border-style: groove dotted;
+    background-color:white;
+}
+.normal-button{
+    margin: 0 auto;
+    border: 2px solid rgb(106, 110, 114);
+    border-radius: 50%;
+    background-color: #fef8e7;
+    height: 70px;
+    width: 70px;
+}
+.normal-button:hover {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.19);
+}
+#uploadBtn{
+    margin: 5px;    
+    background-color: #fef8e7;
+    width: 87px;
+}
+#saveBtn{
+    
+    background-image: url('media/download.png');
+    background-position: center;
+    background-repeat:no-repeat;
+}
+#lineBtn{
+    background-image: url('media/line.png');
+    background-position: center;    
+    background-repeat:no-repeat;
+}
+#circleBtn{
+    background-position: center;        
+    background-image: url('media/circle.png');
+    background-repeat:no-repeat;
+}
+#rectangleBtn{
+    background-position: center;        
+    background-image: url('media/rectangle.png');
+    background-repeat:no-repeat;
+}
+#selectBtn{
+    background-position: center;        
+    background-image: url('media/select.png');
+    background-repeat:no-repeat;
+}
+#cropBtn{
+    background-position: center;        
+    background-image: url('media/crop.png');
+    background-repeat:no-repeat;
+}
+#resizeBtn,#undoBtn,#colorBtn{
+    border: 2px solid rgb(106, 110, 114);
+    background-color: #fef8e7;
+}
+.numberInput{
+    width: 30px;
+    color: black;
+}

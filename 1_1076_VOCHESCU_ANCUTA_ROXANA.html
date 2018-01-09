@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>AV Photo Editor</title>
+    <link rel="stylesheet" type="text/css" href="1_1076_VOCHESCU_ANCUTA_ROXANA.css" />
+    <script type=“text/javascript” src="1_1076_VOCHESCU_ANCUTA_ROXANA.js"></script>    
+</head>
+<body>
+    <div id="buttonsDiv" >
+        <input type="file" accept="image/*" title="Upload Image" id="uploadBtn"/>            
+        <a href="" id="a"><input type="button" title="Save"  class="normal-button" id="saveBtn"/></a>
+        <input type="button" title="Line" class="normal-button" id="lineBtn"/>
+        <input type="button" title="Circle" class="normal-button" id="circleBtn"/>
+        <input type="button" title="Rectangle" class="normal-button" id="rectangleBtn"/>        
+        <input type="button" title="Select"  class="normal-button" id="selectBtn"/>
+        <input type="button" title="Crop" class="normal-button" id="cropBtn"/>        
+    </div>
+    <div id="canvasDetails">
+        W:<input type="text" name="width" id="wInput" class="numberInput">
+        H:<input type="text" name="height" id="hInput" class="numberInput">
+        <input type="button" value="Resize" id="resizeBtn">
+        <input type="button" value="Undo drawing" id="undoBtn">    
+    </div>
+    <div  id="penColor">
+        <span>Pen Color:</span>
+        red<input type="text" name="width" id="rInput" class="numberInput">
+        green<input type="text" name="height" id="gInput" class="numberInput">
+        blue<input type="text" name="width" id="bInput" class="numberInput">
+        <input type="button" value="Change" id="colorBtn">        
+    </div>
+    <canvas id= "myImgCanvas" title="Drop an image here to upload"  tabindex=1 >
+    </canvas>
+    <script src="1_1076_VOCHESCU_ANCUTA_ROXANA.js"></script>
+</body>
+
+</html>
